@@ -18,6 +18,5 @@ class ViewModel {
     func changeView() {
         self.dalegate?.changeColor()
     }
-    
-    
+
 }

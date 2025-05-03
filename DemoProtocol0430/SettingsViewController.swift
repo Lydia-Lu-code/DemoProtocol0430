@@ -82,11 +82,6 @@ class SettingsViewController: UIViewController, ChangeColorTheme {
         self.view.addSubview(settingTableView)
     }
     
-    func changeViewColor() {
-        
-        // https://www.hangge.com/blog/cache/detail_1413.html#google_vignette
-        self.view.backgroundColor = UIColor.randomColor
-    }
 }
 
 extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
